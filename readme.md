@@ -3,7 +3,7 @@
 
 ![laravel elixir building](BLOG_IMAGES/2016-05-05/2016-05-05-setting-up-laravel-with-foundation-01.png)
 
-Laravel Elixir is a wrapper around a traditional Gulp build system that provides a clean, fluent API for defining basic Gulp Tasks. Although Laravel Elixir is branded with Laravel, it is truely a stand alone tool that can be used almost anywhere Gulp can. Laravel Elixir is a realy powerful and useful tool and can make build systems that much easier for beginners.
+Laravel Elixir is a wrapper around a traditional Gulp build system that provides a clean, fluent API for defining basic Gulp Tasks. Although Laravel Elixir is branded with Laravel, it is truly a stand alone tool that can be used almost anywhere Gulp can. Laravel Elixir is a really powerful and useful tool and can make build systems that much easier for beginners.
 
 ### Setting Up Laravel
 
@@ -33,7 +33,7 @@ $ cd laravel-foundation
 
 ### Installing Foundation & jQuery
 
-The first thing we are going to want to do is install foundation and jquery using node version manager (nvm). If you need help with nvm, check out [installing node version manager](http://blog.eventfarm.com/developers/fresh-mac-now-what-brew-install-everything#node-version-manager-nvm).
+The first thing we are going to want to do is install foundation and jQuery using node version manager (nvm). If you need help with nvm, check out [installing node version manager](http://blog.eventfarm.com/developers/fresh-mac-now-what-brew-install-everything#node-version-manager-nvm).
 
 ```bash
 $ npm install --save foundation-sites jquery
@@ -69,9 +69,9 @@ For this example, we are just going to go ahead and set up our `app.scss` file s
 
 ![app.scss file](BLOG_IMAGES/2016-05-05/2016-05-05-setting-up-laravel-with-foundation-04.png)
 
-### Foundation Javascript
+### Foundation JavaScript
 
-Foundation's Javascript components use features of ECMAScript 2015, therefore in order to build the files ourselves, we are going to need to run them through a preprocessor such as Babel in order to compile our JS to ES5.
+Foundation's JavaScript components use features of ECMAScript 2015, therefore in order to build the files ourselves, we are going to need to run them through a preprocessor such as Babel in order to compile our JS to ES5.
 
 ![gulpfile sass and js](BLOG_IMAGES/2016-05-05/2016-05-05-setting-up-laravel-with-foundation-05.png)
 
@@ -79,7 +79,7 @@ You would go ahead and initialize foundation just as usual with `$(document).fou
 
 ### Building Foundation with Laravel Elixir
 
-After your `gulpfile.js` is all set up and ready to go with `mix.sass` and `mix.babel` we are ready go go ahead and run gulp and get our full concatinated and compiled JS and CSS files.
+After your `gulpfile.js` is all set up and ready to go with `mix.sass` and `mix.babel` we are ready to go ahead and run gulp and get our full concatenated and compiled JS and CSS files.
 
 ```bash
 # Run gulp once and do NOT minify.
@@ -112,3 +112,4 @@ I've gone ahead and added my JS and CSS file paths to the `resources/views/welco
 You should be up and running with a simple Laravel and Foundation App. Now you can go forward, pick the Foundation Components you want to include in your project, and leave the rest. This allows you to be super selective about what you are bringing into your build files, allowing you to really reduce some of the dead weight that full fledged CSS frameworks can sometimes bring.
 
 [Github Code Repository](https://github.com/jasonraimondi/laravel-5-foundation-6)
+
