@@ -110,3 +110,5 @@ I've gone ahead and added my JS and CSS file paths to the `resources/views/welco
 ![inspector with foundation](BLOG_IMAGES/2016-05-05/2016-05-05-setting-up-laravel-with-foundation-08.png)
 
 You should be up and running with a simple Laravel and Foundation App. Now you can go forward, pick the Foundation Components you want to include in your project, and leave the rest. This allows you to be super selective about what you are bringing into your build files, allowing you to really reduce some of the dead weight that full fledged CSS frameworks can sometimes bring.
+
+[Github Code Repository](https://github.com/jasonraimondi/laravel-5-foundation-6)
