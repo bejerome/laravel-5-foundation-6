@@ -1,8 +1,6 @@
 
 ## Setting Up Laravel Elixir with Foundation 6
 
-**Skill Level:** Moderate
-
 ![laravel elixir building](BLOG_IMAGES/2016-05-05/2016-05-05-setting-up-laravel-with-foundation-01.png)
 
 Laravel Elixir is a wrapper around a traditional Gulp build system that provides a clean, fluent API for defining basic Gulp Tasks. Although Laravel Elixir is branded with Laravel, it is truely a stand alone tool that can be used almost anywhere Gulp can. Laravel Elixir is a realy powerful and useful tool and can make build systems that much easier for beginners.
