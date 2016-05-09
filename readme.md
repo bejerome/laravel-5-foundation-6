@@ -1,13 +1,13 @@
 
 ## Setting Up Laravel Elixir with Foundation 6
 
-![laravel elixir building](BLOG_IMAGES/2016-05-05/2016-05-05-setting-up-laravel-with-foundation-01.png)
+![laravel elixir building](BLOG_IMAGES/2016-05-05/2015-05-05-cover-photo.png)
 
-Laravel Elixir is a wrapper around a traditional Gulp build system that provides a clean, fluent API for defining basic Gulp Tasks. Although Laravel Elixir is branded with Laravel, it is truly a stand alone tool that can be used almost anywhere Gulp can. Laravel Elixir is a really powerful and useful tool and can make build systems that much easier for beginners.
+[Laravel Elixir](https://laravel.com/docs/5.2/elixir) is a wrapper around a traditional Gulp build system that provides a clean, fluent API for defining basic Gulp Tasks. Although Laravel Elixir is branded with Laravel, it is truly a stand alone tool that can be used almost anywhere Gulp can. Laravel Elixir is a really powerful and useful tool and can make build systems that much easier for beginners. Let's see how we can use Zurb's Foundation for Sites 6 with Laravel Elixir so we can have a super minimal, yet powerfully flexible build system and Front End Framework.
 
 ### Setting Up Laravel
 
-Lets go ahead and create a fresh install of Laravel. You are going to need [Composer](https://getcomposer.org/) to continue. You can go ahead and install Composer via Homebrew using :
+Lets go ahead and create a fresh install of Laravel. You are going to need [Composer](https://getcomposer.org/) to continue. You can go ahead and install Composer via Homebrew using:
 
 ```bash
 $ brew install composer
@@ -112,4 +112,3 @@ I've gone ahead and added my JS and CSS file paths to the `resources/views/welco
 You should be up and running with a simple Laravel and Foundation App. Now you can go forward, pick the Foundation Components you want to include in your project, and leave the rest. This allows you to be super selective about what you are bringing into your build files, allowing you to really reduce some of the dead weight that full fledged CSS frameworks can sometimes bring.
 
 [Github Code Repository](https://github.com/jasonraimondi/laravel-5-foundation-6)
-
